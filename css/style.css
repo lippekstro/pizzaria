@@ -1,0 +1,18 @@
+body {
+    /* background-image: url('pizzaria.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+    background-color: #808080;
+}
+
+nav, footer {
+    background-color: #FF0000;
+    color: white
+}
+
+.card {
+    background-color: #8B4513;
+    color: white;
+}
