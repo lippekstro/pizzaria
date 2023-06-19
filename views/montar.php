@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
 
 <section class="container">
     <div class="py-5 text-center text-white">
-        <img class="d-block mx-auto mb-4" src="https://source.unsplash.com/random/1920x1080/?pizza, logo" alt="" width="72" height="57">
+        <img class="d-block mx-auto mb-4" src="/pizzaria/img/pizza.svg" alt="" width="72" height="57">
         <h2>Monte Sua Pizza</h2>
         <p class="lead">Personalize seu pedido</p>
     </div>
