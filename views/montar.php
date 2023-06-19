@@ -12,7 +12,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
     <div class="row text-white">
         <form action="/pizzaria/views/checkout.php" method="POST" class="bg-secondary py-3">
             <h4 class="mb-3">Divisão</h4>
-            <div class="my-3 d-flex justify-content-center">
+            <div class="my-3 d-flex justify-content-center flex-wrap">
                 <div class="card m-3" style="width: 18rem;">
                     <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                     <div class="card-body d-flex justify-content-center">
@@ -37,7 +37,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
             <div class="d-none" id="opcoes-tamanho">
                 <hr class="my-4">
                 <h4 class="mb-3">Tamanho</h4>
-                <div class="my-3 d-flex justify-content-center">
+                <div class="my-3 d-flex justify-content-center flex-wrap">
                     <div class="card m-3" style="width: 18rem;" id="tamP">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
@@ -53,7 +53,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                         <div class="card-body d-flex justify-content-center">
                             <input id="media" name="tamanho" type="radio" class="form-check-input" value="media" required="">
                             <label class="form-check-label d-flex align-items-center ms-2" for="media">
-                                media
+                                Media
                             </label>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
             <div class="d-none" id="opcoes-sabor1">
                 <hr class="my-4">
                 <h4 class="mb-3">Sabor 1</h4>
-                <div class="my-3 d-flex justify-content-center">
+                <div class="my-3 d-flex justify-content-center flex-wrap">
                     <div class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
@@ -129,7 +129,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
             <div class="d-none" id="opcoes-sabor2">
                 <hr class="my-4">
                 <h4 class="mb-3">Sabor 2</h4>
-                <div class="my-3 d-flex justify-content-center">
+                <div class="my-3 d-flex justify-content-center flex-wrap">
                     <div class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
