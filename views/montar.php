@@ -111,7 +111,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                 <h4 class="mb-3">Sabor 2</h4>
                 <div class="my-3">
                     <div class="form-check d-flex align-items-center">
-                        <input id="calabresa_s2" name="sabor2" type="radio" class="form-check-input" value="calabresa" required="">
+                        <input id="calabresa_s2" name="sabor2" type="radio" class="form-check-input" value="calabresa">
                         <label class="form-check-label d-flex align-items-center ms-2" for="calabresa_s2">
                             Calabresa
                             <img class="d-block mx-auto" src="/pizzaria/img/pizza2.svg" alt="" width="72" height="57">
@@ -119,7 +119,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                     </div>
 
                     <div class="form-check d-flex align-items-center">
-                        <input id="frango_s2" name="sabor2" type="radio" class="form-check-input" value="frango" required="">
+                        <input id="frango_s2" name="sabor2" type="radio" class="form-check-input" value="frango">
                         <label class="form-check-label d-flex align-items-center ms-2" for="frango_s2">
                             Frango
                             <img class="d-block mx-auto" src="/pizzaria/img/pizza2.svg" alt="" width="72" height="57">
@@ -127,7 +127,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                     </div>
 
                     <div class="form-check d-flex align-items-center">
-                        <input id="queijo4_s2" name="sabor2" type="radio" class="form-check-input" value="4 queijos" required="">
+                        <input id="queijo4_s2" name="sabor2" type="radio" class="form-check-input" value="4 queijos">
                         <label class="form-check-label d-flex align-items-center ms-2" for="queijo4_s2">
                             4 Queijos
                             <img class="d-block mx-auto" src="/pizzaria/img/pizza2.svg" alt="" width="72" height="57">
@@ -135,7 +135,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                     </div>
 
                     <div class="form-check d-flex align-items-center">
-                        <input id="portuguesa_s2" name="sabor2" type="radio" class="form-check-input" value="portuguesa" required="">
+                        <input id="portuguesa_s2" name="sabor2" type="radio" class="form-check-input" value="portuguesa">
                         <label class="form-check-label d-flex align-items-center ms-2" for="portuguesa_s2">
                             Portuguesa
                             <img class="d-block mx-auto" src="/pizzaria/img/pizza2.svg" alt="" width="72" height="57">
@@ -144,7 +144,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                 </div>
             </div>
 
-            <button class="btn btn-primary col col-sm-11 col-lg-3 mb-3" type="submit">Continue to checkout</button>
+            <button class="btn btn-primary col col-12 mb-3" type="submit">Continuar</button>
         </form>
 
     </div>

@@ -35,15 +35,23 @@ var tamanhoRadio = document.querySelectorAll('input[name="tamanho"]');
 var pizzaInteira = document.getElementById('inteira');
 var pizzaMetade = document.getElementById('metade');
 
+var radiosSabor2 = document.querySelectorAll('input[name="sabor2"]');
+
 tamanhoRadio.forEach(function (radio) {
     radio.addEventListener('change', function () {
         if (pizzaInteira.checked) {
             opcoesSabor1.classList.remove('d-none');
             opcoesSabor2.classList.add('d-none');
+            radiosSabor2.forEach(function (radio) {
+                radio.required = false;
+            });
 
         } else if (pizzaMetade.checked) {
             opcoesSabor1.classList.remove('d-none');
             opcoesSabor2.classList.remove('d-none');
+            radiosSabor2.forEach(function (radio) {
+                radio.required = true;
+            });
         }
     });
 });
