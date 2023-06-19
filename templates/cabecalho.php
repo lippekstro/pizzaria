@@ -26,10 +26,10 @@
                             <a class="nav-link active" aria-current="page" href="/pizzaria/index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/pizzaria/views/teste.php">Teste</a>
+                            <a class="nav-link active" aria-current="page" href="/pizzaria/views/teste.php">Teste</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Outros
                             </a>
                             <ul class="dropdown-menu">
@@ -38,10 +38,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/pizzaria/views/montar.php">Monte Sua Pizza</a>
+                            <a class="nav-link active" aria-current="page" href="/pizzaria/views/montar.php">Monte Sua Pizza</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/pizzaria/views/login.php">Login</a>
+                            <a class="nav-link active" aria-current="page" href="/pizzaria/views/login.php">Login</a>
                         </li>
                     </ul>
                 </div>
