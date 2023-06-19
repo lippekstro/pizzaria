@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,11 @@
 
     <link rel="stylesheet" href="/pizzaria/css/bootstrap.css">
     <script src="/pizzaria/js/bootstrap.bundle.js" defer></script>
+    <script src="/pizzaria/js/seletores.js" defer></script>
     <link rel="stylesheet" href="/pizzaria/css/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <header>
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
@@ -35,6 +36,9 @@
                                 <li><a class="dropdown-item" href="/pizzaria/views/bebidas.php">Bebidas</a></li>
                                 <li><a class="dropdown-item" href="#">Hamburgueres</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pizzaria/views/montar.php">Monte Sua Pizza</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/pizzaria/views/login.php">Login</a>
