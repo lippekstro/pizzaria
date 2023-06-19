@@ -21,6 +21,13 @@ divisaoRadio.forEach(function (radio) {
             opcoesSabor2.classList.add('d-none');
 
         }
+
+        var divisaoIndex = Array.from(divisaoRadio).indexOf(radio);
+        todosRadio.forEach(function (radio, index) {
+            if (index > divisaoIndex && radio.checked) {
+                radio.checked = false;
+            }
+        });
     });
 });
 
