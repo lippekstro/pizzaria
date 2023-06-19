@@ -55,3 +55,24 @@ tamanhoRadio.forEach(function (radio) {
         }
     });
 });
+
+// Obtém as opções de sabor 1 e sabor 2
+var sabor1Options = document.querySelectorAll('#opcoes-sabor1 input[name="sabor1"]');
+var sabor2Options = document.querySelectorAll('#opcoes-sabor2 input[name="sabor2"]');
+
+// Adiciona um evento de mudança para cada opção de sabor 1
+sabor1Options.forEach(function(option) {
+  option.addEventListener('change', function() {
+    var sabor1Value = this.value;
+
+    // Desabilita a opção equivalente em sabor 2
+    sabor2Options.forEach(function(sabor2Option) {
+      if (sabor2Option.value === sabor1Value) {
+        sabor2Option.disabled = true;
+      } else {
+        sabor2Option.disabled = false;
+      }
+    });
+  });
+});
+
