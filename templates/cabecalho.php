@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
+    <link rel="shortcut icon" href="/pizzaria/img/pizza.svg" type="image/x-icon">
 
     <link rel="stylesheet" href="/pizzaria/css/bootstrap.css">
     <script src="/pizzaria/js/bootstrap.bundle.js" defer></script>
