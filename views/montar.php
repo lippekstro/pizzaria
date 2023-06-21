@@ -13,17 +13,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
         <form action="/pizzaria/views/checkout.php" method="POST" class="bg-secondary py-3">
             <h4 class="mb-3">Divisão</h4>
             <div class="my-3 d-flex justify-content-center flex-wrap">
-                <div class="card m-3" style="width: 18rem;">
-                    <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
+                <label for="inteira" class="card m-3" style="width: 18rem;">
+                    <img src="/pizzaria/img/pizza.png" class="card-img-top" alt="Pizza">
                     <div class="card-body d-flex justify-content-center">
                         <input id="inteira" name="divisao" type="radio" class="form-check-input" value="inteira" required="">
                         <label class="form-check-label d-flex align-items-center ms-2" for="inteira">
                             Inteira
                         </label>
                     </div>
-                </div>
+                </label>
 
-                <div class="card m-3" style="width: 18rem;">
+                <label for="metade" class="card m-3" style="width: 18rem;">
                     <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                     <div class="card-body d-flex justify-content-center">
                         <input id="metade" name="divisao" type="radio" class="form-check-input" value="metade" required="">
@@ -31,14 +31,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                             Metade
                         </label>
                     </div>
-                </div>
+                </label>
             </div>
 
             <div class="d-none" id="opcoes-tamanho">
                 <hr class="my-4">
                 <h4 class="mb-3">Tamanho</h4>
                 <div class="my-3 d-flex justify-content-center flex-wrap">
-                    <div class="card m-3" style="width: 18rem;" id="tamP">
+                    <label for="pequena" class="card m-3" style="width: 18rem;" id="tamP">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="pequena" name="tamanho" type="radio" class="form-check-input" value="pequena" required="">
@@ -46,9 +46,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Pequena
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="media" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="media" name="tamanho" type="radio" class="form-check-input" value="media" required="">
@@ -56,9 +56,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Media
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="grande" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="grande" name="tamanho" type="radio" class="form-check-input" value="grande" required="">
@@ -66,9 +66,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Grande
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="familia" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="familia" name="tamanho" type="radio" class="form-check-input" value="familia" required="">
@@ -76,7 +76,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Familia
                             </label>
                         </div>
-                    </div>
+                    </label>
                 </div>
             </div>
 
@@ -84,7 +84,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                 <hr class="my-4">
                 <h4 class="mb-3">Sabor 1</h4>
                 <div class="my-3 d-flex justify-content-center flex-wrap">
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="calabresa_s1" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="calabresa_s1" name="sabor1" type="radio" class="form-check-input" value="calabresa" required="">
@@ -92,9 +92,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Calabresa
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="frango_s1" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="frango_s1" name="sabor1" type="radio" class="form-check-input" value="frango" required="">
@@ -102,9 +102,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Frango
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="queijos4_s1" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="queijos4_s1" name="sabor1" type="radio" class="form-check-input" value="queijos4" required="">
@@ -112,9 +112,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 4 Queijos
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="portuguesa_s1" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="portuguesa_s1" name="sabor1" type="radio" class="form-check-input" value="portuguesa" required="">
@@ -122,7 +122,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Portuguesa
                             </label>
                         </div>
-                    </div>
+                    </label>
                 </div>
             </div>
 
@@ -130,7 +130,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                 <hr class="my-4">
                 <h4 class="mb-3">Sabor 2</h4>
                 <div class="my-3 d-flex justify-content-center flex-wrap">
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="calabresa_s2" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="calabresa_s2" name="sabor2" type="radio" class="form-check-input" value="calabresa">
@@ -138,9 +138,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Calabresa
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="frango_s2" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="frango_s2" name="sabor2" type="radio" class="form-check-input" value="frango">
@@ -148,9 +148,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Frango
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="queijos4_s2" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="queijos4_s2" name="sabor2" type="radio" class="form-check-input" value="queijos4">
@@ -158,9 +158,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 4 Queijos
                             </label>
                         </div>
-                    </div>
+                    </label>
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <label for="portuguesa_s2" class="card m-3" style="width: 18rem;">
                         <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="portuguesa_s2" name="sabor2" type="radio" class="form-check-input" value="portuguesa">
@@ -168,7 +168,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                                 Portuguesa
                             </label>
                         </div>
-                    </div>
+                    </label>
                 </div>
             </div>
 
