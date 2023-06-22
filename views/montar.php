@@ -24,7 +24,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                 </label>
 
                 <label for="metade" class="card m-3" style="width: 18rem;">
-                    <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
+                    <img src="/pizzaria/img/metade.png" class="card-img-top" alt="Pizza">
                     <div class="card-body d-flex justify-content-center">
                         <input id="metade" name="divisao" type="radio" class="form-check-input" value="metade" required="">
                         <label class="form-check-label d-flex align-items-center ms-2" for="metade">
@@ -39,17 +39,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                 <h4 class="mb-3">Tamanho</h4>
                 <div class="my-3 d-flex justify-content-center flex-wrap">
                     <label for="pequena" class="card m-3" style="width: 18rem;" id="tamP">
-                        <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
+                        <img src="/pizzaria/img/pizza.png" class="card-img-top esc-25" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="pequena" name="tamanho" type="radio" class="form-check-input" value="pequena" required="">
                             <label class="form-check-label d-flex align-items-center ms-2" for="pequena">
-                                Pequena
+                                Brotinho
                             </label>
                         </div>
                     </label>
 
                     <label for="media" class="card m-3" style="width: 18rem;">
-                        <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
+                        <img src="/pizzaria/img/pizza.png" class="card-img-top esc-50" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="media" name="tamanho" type="radio" class="form-check-input" value="media" required="">
                             <label class="form-check-label d-flex align-items-center ms-2" for="media">
@@ -59,20 +59,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/pizzaria/templates/cabecalho.php';
                     </label>
 
                     <label for="grande" class="card m-3" style="width: 18rem;">
-                        <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
+                        <img src="/pizzaria/img/pizza.png" class="card-img-top" alt="Pizza">
                         <div class="card-body d-flex justify-content-center">
                             <input id="grande" name="tamanho" type="radio" class="form-check-input" value="grande" required="">
                             <label class="form-check-label d-flex align-items-center ms-2" for="grande">
-                                Grande
-                            </label>
-                        </div>
-                    </label>
-
-                    <label for="familia" class="card m-3" style="width: 18rem;">
-                        <img src="/pizzaria/img/pizza2.svg" class="card-img-top" alt="Pizza">
-                        <div class="card-body d-flex justify-content-center">
-                            <input id="familia" name="tamanho" type="radio" class="form-check-input" value="familia" required="">
-                            <label class="form-check-label d-flex align-items-center ms-2" for="familia">
                                 Familia
                             </label>
                         </div>

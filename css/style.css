@@ -16,3 +16,11 @@ nav, footer {
     background-color: #8B4513;
     color: white;
 }
+
+.esc-25 {
+    scale: 0.25;
+}
+
+.esc-50 {
+    scale: 0.5;
+}
